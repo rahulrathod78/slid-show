@@ -1,0 +1,23 @@
+body{
+    position: relative;
+}
+#next, #prev{
+    padding: 10px 20px;
+    background-color: rgb(180, 69, 115);
+    color: #fff;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+}
+#prev{
+   top: 38%;
+   left: 30%; 
+}
+#next{
+    top: 38%;
+    right: 30%;
+}
+#img-div{
+    width: 30vw;
+    margin: 0 auto;
+}
